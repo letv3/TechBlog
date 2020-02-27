@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="components/fontawesome-free-5.11.2-web/css/all.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../components/fontawesome-free-5.11.2-web/css/all.css">
+
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-md" style="display:flex;">
+        <a class="navbar-brand" href="../index.php"><img style="width: 100%;height: 100%;" src="../img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-justify"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <div class="navbar-nav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-item nav-link" href="../info/info.html"><i class="far fa-question-circle"></i> about</a></li>
+                    <li class="nav-item"><a class="nav-item nav-link" href="../info/contact.html"><i class="far fa-address-book"></i> contact</a></li>
+                    <li class="nav-item"><a href="../users.php" class="nav-item nav-link"><i class="fas fa-users"></i> our users</a></li>
+                    <!-- <li class="nav-item"><button id="regbut" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"> registration</button></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>   
+<section class="arts" >
+    <h2>What is Google Home?</h2>
+
+    <p>The Google Home can play music, but it's primarily designed as a vehicle for Google Assistant -- Google's
+        voice-activated virtual helper that's connected to the internet.
+        The Google Assistant you access via the Home is the same as the one on recent Android phones such as the Google Pixel 3A.</p>
+
+    <p>The Google Home is always listening to its environment,
+        but it won't record what you're saying or respond to your commands until you speak one of its preprogrammed wake words -- either
+        "OK, Google" or "Hey, Google."</p>
+
+    <p>Google actually has three smart speakers. Google Assistant debuted in the original $100 Google Home.
+        The $50 Google Home Mini squeezes all of the smarts of the original into a smaller, more affordable package.
+        The $300 Google Home Max puts Google's smarts into a speaker designed to deliver premium sound. </p>
+
+    <img src="../img/googlespeakers.png" class="ghome-types img-response" alt="">
+
+    <p>All three speakers give you access to the same Google Assistant service.
+        They differ in size, sound quality and price. You use the same Google Home app to set up all three,
+        and they all respond to the same wake words and commands.</p><br>
+
+    <img src="../img/unnamed.png" class="ghome-classic img-response" alt="">
+
+    <p>In addition to the voice commands, each Google Home speaker has a limited set of physical controls.
+        You can change the volume, mute the microphone, and play or pause your music via a physical interface on the speaker.</p>
+
+
+</section>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-xs-12 text-center text-md-left">
+                <img src="../img/logo.png">
+            </div>
+            <div class="col-md-9 col-xs-12 text-center text-md-right">
+                <ul>
+                    <li><strong>Our articles:</strong></li>
+                    <li><a href="ghome.html">Google Home and It`s features</a></li>
+                    <li><a href="neunet.html">Artificial Neural Networks </a></li>
+                    <li><a href="chatbot.html">What Are Chatbots?</a></li>
+                    <li><a href="airpods.html">New Airpods Pro is here</a></li>
+                    <li>
+                        <script language="javascript">
+                            months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                            var d=new Date();
+                            var weekday=new Array(7);
+                            weekday[0]="Sunday";
+                            weekday[1]="Monday";
+                            weekday[2]="Tuesday";
+                            weekday[3]="Wednesday";
+                            weekday[4]="Thursday";
+                            weekday[5]="Friday";
+                            weekday[6]="Saturday";
+
+                            var d = new Date();
+                            (d.getFullYear());
+
+                            var theDate = new Date(document.lastModified);
+                            theDate.setTime((theDate.getTime()+(60*60)) )
+                            with (theDate) {
+                                document.write("<i> Last updated "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+' '+getHours()+':'+getMinutes()+ " GMT</i>")}
+
+                        </script>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

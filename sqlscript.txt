@@ -1,0 +1,8 @@
+CREATE TABLE `users_table` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(255) NOT NULL,
+  `Surname` varchar(255) NOT NULL,
+  `Class` enum('A','B','C') DEFAULT NULL,
+  `MaisNum` int(11) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4

@@ -1,0 +1,1 @@
+CREATE TABLE users_table( ID int NOT NULL AUTO_INCREMENT, Name varchar(255) NOT NULL, Surname varchar(255) NOT NULL, Class ENUM('A','B','C'), MaisNum int NOT NULL, PRIMARY KEY(ID) );
